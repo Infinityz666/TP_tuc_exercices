@@ -25,5 +25,5 @@ jobs:
       - name: coverage
         run: python -m pytest --profile
       - name: locust
-        run: locust --config=tests/.locust.conf --locustfile=tests/locustfile.py --healdless
+        run: locust --config=tests/.locust.conf --locustfile=tests/locustfile.py
 
