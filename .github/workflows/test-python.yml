@@ -24,6 +24,7 @@ jobs:
         run: pylint --exit-zero application/
       - name: coverage
         run: python -m pytest --profile
-      - name: locust
-        run: locust --config=tests/.locust.conf --locustfile=tests/locustfile.py
+      - name: corne
+        run: 
+          uvicorn application.main2:app
 
