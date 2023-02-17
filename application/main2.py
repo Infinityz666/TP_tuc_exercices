@@ -20,7 +20,7 @@ vars["str_titre"] = driver.title
 assert(vars["str_titre"] == "vars[input_title]")
 
 print("{}".format(vars["input_title"]))
-print("Bonjour je suis un message")
+print("Bonjour je suis un messa")
 
 
 
